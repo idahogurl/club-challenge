@@ -1,0 +1,18 @@
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerText {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  margin-right: 100px;
+}
+
+.headerLogo {
+  height: 50px;
+  margin-left: 100px;
+}
