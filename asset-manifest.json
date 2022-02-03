@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/club-challenge/static/css/main.073c9b0a.css",
-    "main.js": "/club-challenge/static/js/main.be5c7956.js",
+    "main.css": "/club-challenge/static/css/main.0d3cf743.css",
+    "main.js": "/club-challenge/static/js/main.0d1ce365.js",
     "static/js/787.7c61d05b.chunk.js": "/club-challenge/static/js/787.7c61d05b.chunk.js",
-    "static/media/logo.svg": "/club-challenge/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/club-challenge/index.html",
-    "main.073c9b0a.css.map": "/club-challenge/static/css/main.073c9b0a.css.map",
-    "main.be5c7956.js.map": "/club-challenge/static/js/main.be5c7956.js.map",
+    "main.0d3cf743.css.map": "/club-challenge/static/css/main.0d3cf743.css.map",
+    "main.0d1ce365.js.map": "/club-challenge/static/js/main.0d1ce365.js.map",
     "787.7c61d05b.chunk.js.map": "/club-challenge/static/js/787.7c61d05b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.be5c7956.js"
+    "static/css/main.0d3cf743.css",
+    "static/js/main.0d1ce365.js"
   ]
 }
