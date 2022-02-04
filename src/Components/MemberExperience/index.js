@@ -9,6 +9,10 @@ export const MemberExperience = ({ data }) => {
     () => (nps.variantValue >= 0 ? styles.greenClass : styles.redClass),
     [nps]
   );
+  const descriptionSign = useMemo(
+    () => (nps.variantValue >= 0 ? '+' : '-'),
+    [nps]
+  );
 
   return (
     <CardRow title="Member Experience">
@@ -16,7 +20,7 @@ export const MemberExperience = ({ data }) => {
         <Card
           title="NPS"
           value={nps.value}
-          description={`${nps.variantValue}pts last 90 days`}
+          description={`${descriptionSign}${nps.variantValue}pts last 90 days`}
           descriptionClass={descriptionClass}
         />
         <Card

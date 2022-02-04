@@ -6,6 +6,7 @@ const MOCK_DATA = {
     value: 15,
     total: 207,
   },
+  facility_name: 'Club',
   referralLeadsGoal: {
     value: 35,
     total: 100,
@@ -34,7 +35,7 @@ const MOCK_DATA = {
     },
   },
 };
-const API_URL = "https://e994-73-150-141-144.ngrok.io/sales/dashboard/";
+const API_URL = "https://5f35-2601-84-8700-1080-4dbe-65b8-146e-67d1.ngrok.io/sales/dashboard/";
 
 // hook to fetch the BE API and handle the loading state
 export const useFetchInfo = () => {

@@ -35,25 +35,26 @@ export const Dashboard = () => {
   const { percentage } = data.memberCountGoal;
   const clubSalesPercentage = (salesValue * 100) / salesTotal;
   const referralPercentage = (referralValue * 100) / referralTotal;
-  const { memberExperience, myMetrics } = data;
+  const { memberExperience, myMetrics, facility_name: facilityName } = data;
+  const descriptionTextSuffix = facilityName !== "Club" ? " Club" : "";
 
   return (
     <div className={styles.container}>
       <DataRow
         title="Club Sales Goal"
-        description="MTD Sales Goal for Flatiron."
+        description={`MTD Sales Goal for ${facilityName}.`}
         value={`${salesValue}/${salesTotal}`}
         percentage={clubSalesPercentage}
       />
       <DataRow
         title="Referral Leads Goal"
-        description="MTD Referral Leads for Flatiron Club."
+        description={`MTD Referral Leads for ${facilityName}${descriptionTextSuffix}.`}
         value={`${referralValue}/${referralTotal}`}
         percentage={referralPercentage}
       />
       <DataRow
         title="Membership Goal"
-        description="Active Members to Goal for Flatiron Club"
+        description={`Active Members to Goal for ${facilityName}${descriptionTextSuffix}.`}
         value={`${Math.floor(percentage)}%`}
         percentage={Math.floor(percentage)}
       />
