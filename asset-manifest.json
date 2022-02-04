@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/club-challenge/static/css/main.53bb30c6.css",
-    "main.js": "/club-challenge/static/js/main.6dbc227d.js",
+    "main.js": "/club-challenge/static/js/main.70a78a3c.js",
     "static/js/787.7c61d05b.chunk.js": "/club-challenge/static/js/787.7c61d05b.chunk.js",
     "index.html": "/club-challenge/index.html",
     "main.53bb30c6.css.map": "/club-challenge/static/css/main.53bb30c6.css.map",
-    "main.6dbc227d.js.map": "/club-challenge/static/js/main.6dbc227d.js.map",
+    "main.70a78a3c.js.map": "/club-challenge/static/js/main.70a78a3c.js.map",
     "787.7c61d05b.chunk.js.map": "/club-challenge/static/js/787.7c61d05b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53bb30c6.css",
-    "static/js/main.6dbc227d.js"
+    "static/js/main.70a78a3c.js"
   ]
 }
