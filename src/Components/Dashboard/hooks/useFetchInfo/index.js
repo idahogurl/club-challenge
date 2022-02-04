@@ -45,7 +45,7 @@ export const useFetchInfo = () => {
     const urlParams = new URLSearchParams(queryString);
     const clubId = urlParams.get("clubId");
 
-    if (!clubId) return;
+    if (!clubId) return "";
 
     return clubId;
   }, [queryString]);
