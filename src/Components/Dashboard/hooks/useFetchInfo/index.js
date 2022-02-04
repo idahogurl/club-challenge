@@ -53,6 +53,11 @@ export const useFetchInfo = () => {
   const url = `${API_URL}${clubId}`;
 
   useEffect(() => {
+    if (!clubId) {
+      setData(MOCK_DATA);
+      return;
+    }
+
     setLoading(true);
 
     fetch(url)
