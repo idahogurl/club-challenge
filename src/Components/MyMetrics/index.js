@@ -8,7 +8,7 @@ export const MyMetrics = ({ data }) => {
   return (
     <CardRow title="My Metrics">
       <>
-        <Card title="Referral Leads" value={referralLeads.value} description="Tip: Share this QR code with friends of friends." />
+        <Card title="Referral Leads" value={referralLeads.value} description="Tip: Share your QR code with friends of friends." />
         <Card
           title="Your Sales"
           value={yourSales.value}

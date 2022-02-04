@@ -42,7 +42,7 @@ export const Dashboard = () => {
     <div className={styles.container}>
       <DataRow
         title="Club Sales Goal"
-        description={`MTD Sales Goal for ${facilityName}.`}
+        description={`MTD Sales Goal for ${facilityName}${descriptionTextSuffix}.`}
         value={`${salesValue}/${salesTotal}`}
         percentage={clubSalesPercentage}
       />
