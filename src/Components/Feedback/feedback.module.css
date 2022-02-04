@@ -1,0 +1,23 @@
+.container {
+  margin: 20px 20px 28px;
+  text-align: left;
+}
+
+.title {
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 48px;
+  width: 100%;
+  max-width: 410px;
+  border-radius: 30px;
+}

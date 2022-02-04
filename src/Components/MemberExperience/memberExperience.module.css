@@ -1,0 +1,17 @@
+.greenClass {
+  font-weight: 700;
+  color: #009D2C;
+}
+
+.redClass {
+  font-weight: 700;
+  color: #ff1744;
+}
+
+.disengagedClass {
+  font-weight: 700;
+}
+
+.containerClass {
+  margin-left: 12px;
+}
