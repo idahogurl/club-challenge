@@ -2,15 +2,9 @@ import './App.css';
 
 import { Routes, Route } from "react-router-dom";
 import { Header } from './Components/Header';
+import { QRCode } from './Components/QRCode';
 import { SubHeader } from './Components/SubHeader';
-
-function Dashboard() { 
-  return <div /> 
-};
-
-function QRCode() {
-  return <div />;
-}
+import { Dashboard } from './Components/Dashboard';
 
 function App() {
   return (
