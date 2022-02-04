@@ -12,8 +12,8 @@ function App() {
       <Header />
       <SubHeader />
       <Routes>
-        <Route index path="/" element={<QRCode value="https://www.equinox.com/referrals/003A000001TG2TjIAL" />} />
-        <Route path="dash" element={<Dashboard />} />
+        <Route index path="/" element={<Dashboard />} />
+        <Route path="/qr" element={<QRCode />} />
       </Routes>
     </div>
   );

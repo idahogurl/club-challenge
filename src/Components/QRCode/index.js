@@ -19,13 +19,10 @@ function QRCodeSlide({ title, text, codeValue }) {
 }
 
 export const QRCode = () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const referrerId = urlParams.get("referrerId");
-
   return (
     <div className={styles.container}>
       <Carousel>
-        <QRCodeSlide codeValue={`https://www.equinox.com/referrals/${referrerId}`} title="Refer Friends &amp; Family" text="Scan QR to load the referral form." />
+        <QRCodeSlide codeValue={`https://www.equinox.com/referrals/0031H000026Qn1mQAC`} title="Refer Friends &amp; Family" text="Scan QR to load the referral form." />
         <QRCodeSlide codeValue="https://www.equinox.com/join/step1/115?icmp=topnav-join" title="Sign Up Online" text="Scan QR to load the sign up form to join online." />
       </Carousel>
     </div>
