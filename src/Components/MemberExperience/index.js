@@ -28,7 +28,6 @@ export const MemberExperience = ({ data }) => {
           value={disengaged.value}
           description="Members"
           descriptionClass={styles.disengagedClass}
-          helpText={`Nice work! ${disengaged.helpPercentage}% of all club sales this month.`}
           containerClass={styles.containerClass}
         />
       </>
