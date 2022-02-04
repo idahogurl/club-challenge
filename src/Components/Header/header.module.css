@@ -1,18 +1,25 @@
 .header {
-  height: 100px;
+  height: 77px;
+  margin-top: 25px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 2px solid #E9E9E9;
 }
 
 .headerText {
-  font-size: 24px;
-  font-weight: 500;
-  color: black;
-  margin-right: 100px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .headerLogo {
-  height: 50px;
-  margin-left: 100px;
+  width: 62px;
+  height: 21px;
+  margin-right: 164px;
 }
